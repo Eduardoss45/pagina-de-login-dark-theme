@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #201b2c;
+}
+
+.main-login {
+  @apply md:container w-screen h-screen flex justify-center items-center m-auto max-sm:flex-col;
+}
+
+.left-login {
+  @apply w-[50vw] max-sm:w-full max-sm:h-auto h-screen flex justify-center items-center flex-col;
+}
+
+.left-login h1 {
+  @apply text-[3vw] max-sm:text-[9vw] text-[#77ffc0] max-sm:hidden;
+}
+
+.left-login img {
+  @apply w-[35vw] max-sm:w-[50vw];
+}
+
+.right-login {
+  @apply w-[50vw] max-sm:w-full max-sm:h-auto h-screen flex justify-center items-center;
+}
+
+.card-login {
+  @apply w-3/5 max-lg:w-5/6 max-sm:w-11/12 flex justify-center items-center flex-col py-8 px-9 bg-[#2f2841] rounded-2xl shadow-[0_10px_40px_#00000056];
+}
+
+.card-login h1 {
+  @apply text-[3vw] max-sm:text-[9vw] text-[#00ff88] font-extrabold m-0;
+}
+
+.textfield {
+  @apply w-full flex flex-col items-start justify-center my-2 mx-0;
+}
+
+.textfield label {
+  @apply text-[#f0ffffde] mb-2;
+}
+
+.textfield input {
+  @apply w-full border-none rounded-lg p-4 bg-[#514869] text-[#f0ffffde] text-[12pt] shadow-[0_10px_40px_#00000056] outline-none placeholder:text-[#f0ffff94];
+}
+
+.btn-login {
+  @apply w-full py-4 px-0 m-6 border-none rounded-lg outline-none uppercase font-extrabold tracking-[3px] text-[#2b134b] bg-[#00ff88] cursor-pointer shadow-[0_10px_40px_-12px_#00ff8052];
+}
