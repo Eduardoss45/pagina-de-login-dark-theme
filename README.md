@@ -1,4 +1,3 @@
-```
 # Projeto de Página de Login
 
 Este projeto é uma simples página de login construída utilizando HTML e estilizada com Tailwind CSS.
@@ -19,7 +18,7 @@ Este projeto é uma simples página de login construída utilizando HTML e estil
 1. Clone este repositório:
 
    ```bash
-   git clone 
+   git clone https://github.com/Eduardoss45/pagina-de-login-dark-theme.git
    ```
 
 2. Navegue até o diretório do projeto:
@@ -43,4 +42,3 @@ Contribuições são bem-vindas! Se você tiver alguma ideia para melhorias ou n
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-```
