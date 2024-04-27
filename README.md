@@ -24,7 +24,7 @@ Este projeto é uma simples página de login construída utilizando HTML e estil
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd projeto-pagina-login
+   cd projeto-pagina-login-dark-theme-main
    ```
 
 3. Abra o arquivo `index.html` em seu navegador da web ou implante-o em um servidor web para visualizar a página de login.
